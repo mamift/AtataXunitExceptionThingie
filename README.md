@@ -17,12 +17,17 @@ NOTE: If VS doesn't break on the exception, ensure that breaking on the **FileNo
 - Microsoft Visual Studio Professional 2022
 	* Version 17.1.6
 
-- Microsoft .NET Framework
-	* Version 4.8.04084
-
 - Windows 10 Enterprise
 	* Version	20H2
 	* OS build	19042.1645
+
+## Project info
+
+- Used Atata templates 2.1 (https://marketplace.visualstudio.com/items?itemName=YevgeniyShunevych.AtataTemplates) 
+
+- Then used code in the Xunit sample project (https://github.com/atata-framework/atata-samples/tree/master/Xunit/AtataSamples.Xunit) to replace Nunit wiht Xunit.
+
+- Test project targets `netcoreapp3.1`
 
 ### Packages references list
 
