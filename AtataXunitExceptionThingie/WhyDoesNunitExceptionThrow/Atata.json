@@ -22,7 +22,6 @@
     }
   ],
   "culture": "en-US",
-  "useAllNUnitFeatures": true,
   "logConsumers": [
     {
       "type": "nlog-file"
